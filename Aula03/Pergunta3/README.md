@@ -1,24 +1,24 @@
-##Pergunta p3.1
+# Pergunta p3.1
 
-#Servidores escolhidos:
+## Servidores escolhidos:
 A:
 
 B:
 
 
-Anexe os resultados do ssh-audit à sua resposta.
+### 1 - Anexe os resultados do ssh-audit à sua resposta.
 A:
 Comando utilizado:
 python ssh-audit.py pong.inesctec.pt > inesctec.txt
-Ficheiro inesctec.txt enviado em anexo..
+Ficheiro inesctec.txt 
 
 B:
 Comando utilizado:
 python ssh-audit.py 109.109.136.95.rev.vodafone.pt > Vodafone.txt
-Ficheiro Vodafone.txt enviado em anexo…
+Ficheiro Vodafone.txt 
 
 
-Indique o software e versão utilizada pelos servidores ssh.
+### 2 - Indique o software e versão utilizada pelos servidores ssh.
 A:
 (gen) banner: SSH-2.0-OpenSSH_6.6.1p1 Ubuntu-2ubuntu2.10
 (gen) software: OpenSSH 6.6.1p1
@@ -27,7 +27,7 @@ B:
 (gen) banner: SSH-2.0-OpenSSH_7.4p1 Raspbian-10+deb9u2
 (gen) software: OpenSSH 7.4p1
 
-Qual dessas versões de software tem mais vulnerabilidades?
+### 3 Qual dessas versões de software tem mais vulnerabilidades?
 A:
 
 
@@ -36,11 +36,11 @@ B:
 
 O software do servidor A é o que apresenta mais vulnerabilidades uma vez que apresenta 5 enquanto que o software utilizado no servidor B apenas apresenta uma vulnerabilidade conhecida de acordo com o site: www.cwe-mitre.org.
 
-E qual tem a vulnerabilidade mais grave (de acordo com o CVSS score identificado no CVE details)?
+### 4 E qual tem a vulnerabilidade mais grave (de acordo com o CVSS score identificado no CVE details)?
 O servidor A uma vez que apresenta uma vulnerabilidade com um score de 7.8.
 //Decrever a vulnerabilidade e dizer qual é
 
-Para efeitos práticos, a vulnerabilidade indicada no ponto anterior é grave? Porquê?
+### 5 Para efeitos práticos, a vulnerabilidade indicada no ponto anterior é grave? Porquê?
 CWE-2016-8858 CWE ID 399
 CVSS Score                     7.8
                                                   Confidentiality Impact                     None                     (There is no impact to the confidentiality of the system.)     
