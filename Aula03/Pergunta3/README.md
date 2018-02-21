@@ -1,6 +1,18 @@
-# Pergunta p3.1
+# 3. Protocolo SSH
+Grupo 5 - Escolha dois servidores ssh de empresas comerciais no Porto.
 
-## Servidores escolhidos:
+
+## Experiência 3.1
+
+
+
+Este servidor utiliza o software OpenSSH versão 7.4p1
+
+Os algoritmos de troca de chave, de chave pública, de cifra e MAC estão atualizados e são adequados,
+
+## Pergunta p3.1
+
+### Servidores escolhidos:
 A:
 
 B:
