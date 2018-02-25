@@ -72,7 +72,7 @@ O servidor A uma vez que apresenta uma vulnerabilidade com um score de 7.8.
 
 
 ### 5 Para efeitos práticos, a vulnerabilidade indicada no ponto anterior é grave? Porquê?
-CWE-2016-8858 CWE ID 399
+[CWE-2016-8858 CWE ID 399](https://www.cvedetails.com/cve/CVE-2016-8858/)
 
 #### CVSS Score                     7.8
 
